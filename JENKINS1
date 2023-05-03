@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                
+                echo "This is testing of Private Git repo"
             }
         }
     }
